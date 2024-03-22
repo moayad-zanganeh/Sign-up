@@ -8,35 +8,61 @@
     <title>Sign-Up</title>
   </head>
   <body>
-    <div class="asli">
-      <header>
-        <h2>Create your account👋</h2>
-        <span>Sign up with Google</span>
-        <hr />
-        <span>Sign up with Apple</span>
+    <div
+      class="asli w-[30%] mx-auto my-[5rem] bg-white rounded-md h-[80vh] drop-shadow-md shadow-slate-600"
+    >
+      <header class="text-center">
+        <h2 class="size-9 w-full font-bold">Create your account👋</h2>
+        <span> Sign up with Google</span>
+        <hr class="w-[50%] relative left-24 my-1" />
+        <span class="">Sign up with Apple</span>
       </header>
-      <span>Or</span>
-      <div>
-        <form action="" id="submit">
-          <label>
-            Email
-            <input type="email" />
-          </label>
-          <label>
-            Password
-            <input type="password" />
-          </label>
-          <label>
-            Report Password
-            <input type="password" />
-          </label>
-          <button>Sign up</button>
-        </form>
+      <div class="divider flex flex-row gap-4 items-center">
+        <span class="divider-line w-full h-[1px] opacity-20"></span>
+        Or
+        <span class="divider-line w-full h-[1px] opacity-20"></span>
       </div>
       <div>
+        <form
+          class="flex flex-col flex-wrap gap-2 text-center"
+          action=""
+          id="submit"
+        >
+          <label class="flex flex-col text-left w-56 mx-24">
+            <span class="my-1">Email:</span>
+            <input
+              class="bg-white rounded-md px-2 py-1 outline-none"
+              type="email"
+            />
+          </label>
+          <label class="flex flex-col text-left w-56 mx-24">
+            <span class="my-1">Password:</span>
+            <input
+              class="bg-white rounded-md px-2 py-1 outline-none"
+              type="password"
+            />
+          </label>
+          <label class="flex flex-col text-left w-56 mx-24">
+            <span class="my-1">Report Password:</span>
+
+            <input
+              class="bg-white rounded-md px-2 py-1 outline-none"
+              type="password"
+            />
+          </label>
+          <button
+            class="bg-blue-700 text-white w-56 py-1 m-auto rounded-md my-3"
+          >
+            Sign up
+          </button>
+        </form>
+      </div>
+      <div class="flex mx-[2rem] w-full">
         <p>Did you forget password?</p>
-        <span>Reset Password</span>
-        <a href="#">Login</a>
+        <span class="mx-[3rem] inline-block">Reset Password</span>
+      </div>
+      <div class="text-center my-2">
+        <a href="#" class="text-blue-800 font-bold">Login</a>
       </div>
     </div>
   </body>
